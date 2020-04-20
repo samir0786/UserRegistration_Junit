@@ -6,7 +6,6 @@ public class userRegistrationTest{
     public void givenFirstName_WhenProper_ShouldReturnTrue() {
         boolean firstName = userRegistration.validInputName("Sameer");
         Assert.assertTrue(firstName);
-
     }
 
     @Test
@@ -25,5 +24,17 @@ public class userRegistrationTest{
     public void givenLastName_WhenNotInProperFormat_ShouldReturnFalse() {
         boolean lastName = userRegistration.validInputName("Sayed001");
         Assert.assertFalse(lastName);
+    }
+
+    @Test
+    public void givenEmailId_WhenProper_ShouldReturnTrue() {
+        boolean emailId = userRegistration.validEmailId("sam@gmail.com");
+        Assert.assertTrue(emailId);
+    }
+
+    @Test
+    public void givenEmailId_WhenNotInProperFormat_ShouldReturnFalse() {
+        boolean emailId = userRegistration.validEmailId("ABCgmail.com");
+        Assert.assertFalse(emailId);
     }
 }
