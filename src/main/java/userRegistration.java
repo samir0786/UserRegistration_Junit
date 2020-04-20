@@ -1,4 +1,4 @@
-public class userRegistration {
+public class userRegistration{
 
     static final String NAME_PATTERN = "^[A-Z][a-z]{2,}$";
 
