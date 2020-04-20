@@ -5,4 +5,5 @@ public class userRegistration{
     public static boolean validInputName(String inputName) {
         return inputName.matches(NAME_PATTERN);
     }
+
 }

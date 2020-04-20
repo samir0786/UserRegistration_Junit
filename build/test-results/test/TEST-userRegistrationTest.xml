@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="userRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-20T12:50:53" hostname="TANVEER-PC" time="0.006">
+<testsuite name="userRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-20T14:51:03" hostname="TANVEER-PC" time="0.005">
   <properties/>
-  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue" classname="userRegistrationTest" time="0.006"/>
+  <testcase name="givenFirstName_WhenNotInProperFormat_ShouldReturnFalse" classname="userRegistrationTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
