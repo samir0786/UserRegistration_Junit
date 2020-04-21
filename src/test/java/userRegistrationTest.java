@@ -2,6 +2,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class userRegistrationTest{
+
     @Test
     public void givenFirstName_WhenProper_ShouldReturnTrue() {
         boolean firstName = userRegistration.validInputName("Sameer");
@@ -50,14 +51,26 @@ public class userRegistrationTest{
     }
 
     @Test
-    public void givenPasswordMinimumEightCharacters_WhenProper_ShouldReturnTrue() {
+    public void givenPassword_MinimumEightCharacters_WhenProper_ShouldReturnTrue() {
         boolean password = userRegistration.validatePassword("Samirsayed");
         Assert.assertTrue(password);
     }
 
     @Test
-    public void givenPasswordMinimumEightCharacters_WhenNotProper_ShouldReturnFalse() {
+    public void givenPassword_MinimumEightCharacters_WhenNotProper_ShouldReturnFalse() {
         boolean password = userRegistration.validatePassword("sam");
+        Assert.assertFalse(password);
+    }
+
+    @Test
+    public void givenPassword_Atleast1UpperCase_WhenProper_ShouldReturnTrue() {
+        boolean password = userRegistration.validatePasswordForUpperCase("Samirsayed");
+        Assert.assertTrue(password);
+    }
+
+    @Test
+    public void givenPassword_Atleast1UpperCase_WhenNotProper_ShouldReturnTrue() {
+        boolean password = userRegistration.validatePasswordForUpperCase("samirsayed");
         Assert.assertFalse(password);
     }
 }
