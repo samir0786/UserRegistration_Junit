@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="userRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-21T20:13:36" hostname="TANVEER-PC" time="0.007">
+<testsuite name="userRegistrationTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-04-21T20:38:49" hostname="TANVEER-PC" time="0.049">
   <properties/>
-  <testcase name="givenPassword_Atleast1UpperCase_WhenNotProper_ShouldReturnTrue" classname="userRegistrationTest" time="0.007"/>
+  <testcase name="givenMobileNumber_WhenProper_ShouldReturnTrue" classname="userRegistrationTest" time="0.006"/>
+  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue" classname="userRegistrationTest" time="0.002"/>
+  <testcase name="givenPassword_Atleast1UpperCase_WhenProper_ShouldReturnTrue" classname="userRegistrationTest" time="0.002"/>
+  <testcase name="givenPassword_MinimumEightCharacters_WhenNotProper_ShouldReturnFalse" classname="userRegistrationTest" time="0.0"/>
+  <testcase name="givenEmailId_WhenProper_ShouldReturnTrue" classname="userRegistrationTest" time="0.02"/>
+  <testcase name="givenPassword_MinimumEightCharacters_WhenProper_ShouldReturnTrue" classname="userRegistrationTest" time="0.001"/>
+  <testcase name="givenLastName_WhenNotInProperFormat_ShouldReturnFalse" classname="userRegistrationTest" time="0.001"/>
+  <testcase name="givenPassword_Atleast1Number_WhenNotProper_ShouldReturnFalse" classname="userRegistrationTest" time="0.002"/>
+  <testcase name="givenLastName_WhenProper_ShouldReturnTrue" classname="userRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Atleast1Number_WhenProper_ShouldReturnTrue" classname="userRegistrationTest" time="0.001"/>
+  <testcase name="givenPassword_Atleast1UpperCase_WhenNotProper_ShouldReturnFalse" classname="userRegistrationTest" time="0.001"/>
+  <testcase name="givenEmailId_WhenNotInProperFormat_ShouldReturnFalse" classname="userRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenNotInProperFormat_ShouldReturnFalse" classname="userRegistrationTest" time="0.001"/>
+  <testcase name="givenMobileNumber_WhenNotInProperFormat_ShouldReturnFalse" classname="userRegistrationTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

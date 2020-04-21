@@ -69,8 +69,20 @@ public class userRegistrationTest{
     }
 
     @Test
-    public void givenPassword_Atleast1UpperCase_WhenNotProper_ShouldReturnTrue() {
+    public void givenPassword_Atleast1UpperCase_WhenNotProper_ShouldReturnFalse() {
         boolean password = userRegistration.validatePasswordForUpperCase("samirsayed");
+        Assert.assertFalse(password);
+    }
+
+    @Test
+    public void givenPassword_Atleast1Number_WhenProper_ShouldReturnTrue() {
+        boolean password = userRegistration.validatePasswordForNumber("Sameer12345");
+        Assert.assertTrue(password);
+    }
+
+    @Test
+    public void givenPassword_Atleast1Number_WhenNotProper_ShouldReturnFalse() {
+        boolean password = userRegistration.validatePasswordForNumber("sameer");
         Assert.assertFalse(password);
     }
 }
