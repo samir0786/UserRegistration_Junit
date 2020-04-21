@@ -1,7 +1,7 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-public class userRegistrationTest{
+public class userRegistrationTest {
 
     @Test
     public void givenFirstName_WhenProper_ShouldReturnTrue() {
@@ -44,6 +44,7 @@ public class userRegistrationTest{
         boolean mobileNumber = userRegistration.validMobileNumber("01 7860079263");
         Assert.assertTrue(mobileNumber);
     }
+
     @Test
     public void givenMobileNumber_WhenNotInProperFormat_ShouldReturnFalse() {
         boolean mobileNumber = userRegistration.validMobileNumber("01 007926");
@@ -83,6 +84,18 @@ public class userRegistrationTest{
     @Test
     public void givenPassword_Atleast1Number_WhenNotProper_ShouldReturnFalse() {
         boolean password = userRegistration.validatePasswordForNumber("sameer");
+        Assert.assertFalse(password);
+    }
+
+    @Test
+    public void givenPassword_Exactly1SpecialCharacter_WhenProper_ShouldReturnTrue() {
+        boolean password = userRegistration.validatePasswordForSpecialCharacter("Sameersayed@123");
+        Assert.assertTrue(password);
+    }
+
+    @Test
+    public void givenPassword_Exactly1SpecialCharacter_WhenNotProper_ShouldReturnFalse() {
+        boolean password = userRegistration.validatePasswordForSpecialCharacter("Sameersayed@");
         Assert.assertFalse(password);
     }
 }
