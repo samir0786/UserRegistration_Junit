@@ -43,4 +43,21 @@ public class userRegistrationTest{
         boolean mobileNumber = userRegistration.validMobileNumber("01 7860079263");
         Assert.assertTrue(mobileNumber);
     }
+    @Test
+    public void givenMobileNumber_WhenNotInProperFormat_ShouldReturnFalse() {
+        boolean mobileNumber = userRegistration.validMobileNumber("01 007926");
+        Assert.assertFalse(mobileNumber);
+    }
+
+    @Test
+    public void givenPasswordMinimumEightCharacters_WhenProper_ShouldReturnTrue() {
+        boolean password = userRegistration.validatePassword("Samirsayed");
+        Assert.assertTrue(password);
+    }
+
+    @Test
+    public void givenPasswordMinimumEightCharacters_WhenNotProper_ShouldReturnFalse() {
+        boolean password = userRegistration.validatePassword("sam");
+        Assert.assertFalse(password);
+    }
 }
