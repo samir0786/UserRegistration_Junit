@@ -14,7 +14,6 @@ public class EmailValidationSampleTest {
     private String email;
     private boolean expectedResult;
     public EmailValidationSampleTest(String emailId, boolean expectedResult) {
-       // super();
         this.email = emailId;
         this.expectedResult = expectedResult;
     }

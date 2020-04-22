@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EmailValidationSampleTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-04-22T08:37:45" hostname="TANVEER-PC" time="0.114">
+<testsuite name="EmailValidationSampleTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-04-22T16:36:44" hostname="TANVEER-PC" time="0.133">
   <properties/>
-  <testcase name="testUserEmailId[0]" classname="EmailValidationSampleTest" time="0.011"/>
-  <testcase name="testUserEmailId[1]" classname="EmailValidationSampleTest" time="0.06"/>
+  <testcase name="testUserEmailId[0]" classname="EmailValidationSampleTest" time="0.016"/>
+  <testcase name="testUserEmailId[1]" classname="EmailValidationSampleTest" time="0.002"/>
   <testcase name="testUserEmailId[2]" classname="EmailValidationSampleTest" time="0.001"/>
-  <testcase name="testUserEmailId[3]" classname="EmailValidationSampleTest" time="0.003"/>
-  <testcase name="testUserEmailId[4]" classname="EmailValidationSampleTest" time="0.001"/>
-  <testcase name="testUserEmailId[5]" classname="EmailValidationSampleTest" time="0.001"/>
-  <testcase name="testUserEmailId[6]" classname="EmailValidationSampleTest" time="0.001"/>
-  <testcase name="testUserEmailId[7]" classname="EmailValidationSampleTest" time="0.001"/>
-  <testcase name="testUserEmailId[8]" classname="EmailValidationSampleTest" time="0.001"/>
-  <testcase name="testUserEmailId[9]" classname="EmailValidationSampleTest" time="0.0"/>
-  <testcase name="testUserEmailId[10]" classname="EmailValidationSampleTest" time="0.003"/>
-  <testcase name="testUserEmailId[11]" classname="EmailValidationSampleTest" time="0.001"/>
-  <testcase name="testUserEmailId[12]" classname="EmailValidationSampleTest" time="0.001"/>
-  <testcase name="testUserEmailId[13]" classname="EmailValidationSampleTest" time="0.004"/>
-  <testcase name="testUserEmailId[14]" classname="EmailValidationSampleTest" time="0.002"/>
-  <testcase name="testUserEmailId[15]" classname="EmailValidationSampleTest" time="0.008"/>
-  <testcase name="testUserEmailId[16]" classname="EmailValidationSampleTest" time="0.0"/>
+  <testcase name="testUserEmailId[3]" classname="EmailValidationSampleTest" time="0.002"/>
+  <testcase name="testUserEmailId[4]" classname="EmailValidationSampleTest" time="0.006"/>
+  <testcase name="testUserEmailId[5]" classname="EmailValidationSampleTest" time="0.004"/>
+  <testcase name="testUserEmailId[6]" classname="EmailValidationSampleTest" time="0.002"/>
+  <testcase name="testUserEmailId[7]" classname="EmailValidationSampleTest" time="0.002"/>
+  <testcase name="testUserEmailId[8]" classname="EmailValidationSampleTest" time="0.002"/>
+  <testcase name="testUserEmailId[9]" classname="EmailValidationSampleTest" time="0.003"/>
+  <testcase name="testUserEmailId[10]" classname="EmailValidationSampleTest" time="0.002"/>
+  <testcase name="testUserEmailId[11]" classname="EmailValidationSampleTest" time="0.002"/>
+  <testcase name="testUserEmailId[12]" classname="EmailValidationSampleTest" time="0.011"/>
+  <testcase name="testUserEmailId[13]" classname="EmailValidationSampleTest" time="0.005"/>
+  <testcase name="testUserEmailId[14]" classname="EmailValidationSampleTest" time="0.004"/>
+  <testcase name="testUserEmailId[15]" classname="EmailValidationSampleTest" time="0.005"/>
+  <testcase name="testUserEmailId[16]" classname="EmailValidationSampleTest" time="0.002"/>
   <testcase name="testUserEmailId[17]" classname="EmailValidationSampleTest" time="0.002"/>
-  <testcase name="testUserEmailId[18]" classname="EmailValidationSampleTest" time="0.0"/>
-  <testcase name="testUserEmailId[19]" classname="EmailValidationSampleTest" time="0.001"/>
-  <testcase name="testUserEmailId[20]" classname="EmailValidationSampleTest" time="0.0"/>
+  <testcase name="testUserEmailId[18]" classname="EmailValidationSampleTest" time="0.002"/>
+  <testcase name="testUserEmailId[19]" classname="EmailValidationSampleTest" time="0.002"/>
+  <testcase name="testUserEmailId[20]" classname="EmailValidationSampleTest" time="0.004"/>
   <system-out><![CDATA[true
 true
 true
